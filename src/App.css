@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mainContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.navbarSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #3367d6;
+  height: 70px;
+  width: 100%;
+  padding: 20px;
+}
+
+.image {
+  width: 100px;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 12px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #6697ff;
+  background-color: #2850a7;
+  height: 35px;
+  align-self: center;
+  margin-left: 50px;
+}
+
+.searchIcon {
+  width: 20px;
+  margin: 15px;
+}
+
+.inputElement {
+  height: 35px;
+  border-style: none;
+  outline: none;
+  border-left-width: 1px;
+  background-color: transparent;
+  border-left-color: #6697ff;
+}
+
+.historyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 90%;
+}
+
+.innerContainer {
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ececec;
+  padding: 10px;
+}
+
+.itemsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.time {
+  color: #64748b;
+  font-weight: bold;
+  font-size: 15px;
+  min-width: 60px;
+}
+
+.delIconContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logoElement {
+  width: 20px;
+  margin-right: 22px;
+}
+
+.logoContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.name {
+  color: #475569;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.website {
+  color: #64748b;
+  font-size: 15px;
+}
+
+.delButton {
+  width: 40px;
+  border-style: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.delIcon {
+  width: 20px;
+}
+
+.emptyContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emptyElement {
+  color: #64748b;
+  font-size: 20px;
+}
